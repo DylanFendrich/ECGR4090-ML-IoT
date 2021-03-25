@@ -129,6 +129,7 @@ void loop() {
     int proximity = APDS.readProximity();
 
     // print value to the Serial Monitor
+    Serial.print("Proximity: ");
     Serial.println(proximity);
 
     // the numbers were calculated by using a ruler and placing my hand roughly 4 inches away from the sensor
